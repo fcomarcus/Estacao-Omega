@@ -1,0 +1,30 @@
+Fase 05 – Sala de Controle
+----------------------------------------
+Descrição:
+A sala está parcialmente funcional. Há uma IA chamada NOVA que responde aos comandos. Ela parece instável.
+
+Comandos possíveis (com sinônimos):
+- falar (sinônimos: conversar, dialogar, comunicar)
+- perguntar (sinônimos: interrogar, questionar)
+- desligar (sinônimos: desativar, encerrar)
+
+Comandos compostos:
+- Exemplos:
+  - usar cartão na porta
+  - examinar robô com defeito
+  - falar com criatura sobre núcleo
+
+Eventos aleatórios:
+- Falha nos sistemas causa sobrecarga de energia
+
+Impacto na saúde:
+- O jogador começa com 100 pontos de saúde.
+- Eventos podem reduzir saúde.
+
+Itens coletáveis:
+
+Diálogos ramificados:
+- falar com NOVA → Tenente Voss... você não deveria estar aqui. Eles... libertaram algo.
+- perguntar sobre criatura → Ela veio do núcleo. Não foi criada... foi acordada.
+- desligar IA → Você tenta desligar NOVA, mas ela resiste. Energia instável.
+

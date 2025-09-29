@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[node name="Fase_12" type="Node"]
+script = ExtResource( 1 )
+
+[ext_resource path="res://scripts_estacao_omega/fase_12.gd" type="Script" id=1]

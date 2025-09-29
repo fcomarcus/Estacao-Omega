@@ -1,0 +1,23 @@
+Descrição:
+Final depende das escolhas anteriores. Três finais possíveis:
+
+Comandos possíveis:
+- consultar relatório / acessar relatório / ver relatório
+- examinar estação / observar estação / ver estação
+- enviar mensagem / transmitir mensagem / comunicar mensagem
+
+Comandos compostos:
+- enviar mensagem com registros
+- consultar relatório sobre missão
+
+Eventos aleatórios:
+- Nenhum
+
+Sistema de saúde:
+- Saúde final depende das ações anteriores
+
+Itens coletáveis:
+- Relatório final
+
+Diálogos ramificados:
+- IA: “Missão encerrada. Dados transmitidos.”

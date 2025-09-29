@@ -1,0 +1,27 @@
+Fase 02 – Corredor Principal
+----------------------------------------
+Descrição:
+O corredor está escuro, com cabos soltos e marcas de arranhões nas paredes. Há três portas: Laboratório, Dormitórios e Sala de Controle.
+
+Comandos possíveis (com sinônimos):
+- ir (sinônimos: mover, caminhar, seguir)
+- examinar (sinônimos: observar, analisar, ver)
+- usar (sinônimos: utilizar, aplicar)
+
+Comandos compostos:
+- Exemplos:
+  - usar cartão na porta
+  - examinar robô com defeito
+  - falar com criatura sobre núcleo
+
+Eventos aleatórios:
+- Queda de energia repentina
+- Criatura passa rapidamente ao fundo
+
+Impacto na saúde:
+- O jogador começa com 100 pontos de saúde.
+- Eventos podem reduzir saúde.
+
+Itens coletáveis:
+- lanterna
+

@@ -1,0 +1,29 @@
+Fase 03 – Laboratório
+----------------------------------------
+Descrição:
+O laboratório está revirado. Frascos quebrados, computadores desligados. Um diário digital está semi-funcional.
+
+Comandos possíveis (com sinônimos):
+- ler (sinônimos: consultar, acessar)
+- examinar (sinônimos: observar, analisar, ver)
+- pegar (sinônimos: coletar, capturar, recolher)
+
+Comandos compostos:
+- Exemplos:
+  - usar cartão na porta
+  - examinar robô com defeito
+  - falar com criatura sobre núcleo
+
+Eventos aleatórios:
+- Vazamento químico afeta respiração
+
+Impacto na saúde:
+- O jogador começa com 100 pontos de saúde.
+- Eventos podem reduzir saúde.
+
+Itens coletáveis:
+- sedativo experimental
+
+Diálogos ramificados:
+- ler diário → Dia 45: A criatura está aprendendo. Ela imita vozes. O Dr. Kellen desapareceu ontem.
+

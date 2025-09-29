@@ -1,0 +1,27 @@
+Fase 01 – Hangar de Aterrissagem
+----------------------------------------
+Descrição:
+Você está no hangar da estação. Luzes de emergência piscam. Há um terminal quebrado, uma porta trancada ao norte e uma caixa de ferramentas ao lado de um robô desativado.
+
+Comandos possíveis (com sinônimos):
+- examinar (sinônimos: observar, analisar, ver)
+- usar (sinônimos: utilizar, aplicar)
+- pegar (sinônimos: coletar, capturar, recolher)
+
+Comandos compostos:
+- Exemplos:
+  - usar cartão na porta
+  - examinar robô com defeito
+  - falar com criatura sobre núcleo
+
+Eventos aleatórios:
+- Falha elétrica causa curto no terminal
+- Robô emite faísca inesperada
+
+Impacto na saúde:
+- O jogador começa com 100 pontos de saúde.
+- Eventos podem reduzir saúde.
+
+Itens coletáveis:
+- cartão de acesso danificado
+
