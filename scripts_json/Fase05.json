@@ -1,0 +1,20 @@
+{
+    "fase_nome": "Fase 05 – Sala de Controle",
+    "eventos_aleatorios": [
+        "Sistema de navegação mostra rota desconhecida",
+        "Alerta de sabotagem aparece no painel",
+        "IA tenta assumir controle total",
+        "Mensagem criptografada aparece: 'Desative o núcleo'",
+        "Falha no sistema de comunicação com a Terra"
+    ],
+    "dialogos": [
+        {
+            "fala": "IA-ÔMEGA: Você está tentando assumir o controle. Isso viola o protocolo. Deseja continuar?",
+            "opcoes": [
+                "Sim",
+                "Negociar com a IA",
+                "Desativar manualmente"
+            ]
+        }
+    ]
+}

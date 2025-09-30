@@ -1,0 +1,20 @@
+{
+    "fase_nome": "Fase 15 – Epílogo",
+    "eventos_aleatorios": [
+        "Mensagem final da IA é reproduzida",
+        "Ambiente mostra consequências das escolhas",
+        "Registro da missão é transmitido",
+        "Última comunicação com a Terra",
+        "Sistema entra em modo de encerramento"
+    ],
+    "dialogos": [
+        {
+            "fala": "IA-ÔMEGA: A missão chegou ao fim. Deseja revisar seu legado?",
+            "opcoes": [
+                "Sim",
+                "Encerrar",
+                "Transmitir relatório"
+            ]
+        }
+    ]
+}

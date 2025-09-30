@@ -1,0 +1,20 @@
+{
+    "fase_nome": "Fase 02 – Corredor Principal",
+    "eventos_aleatorios": [
+        "Luzes piscam em sequência como se algo estivesse se movendo",
+        "Painel de acesso solicita código desconhecido",
+        "Som metálico ecoa atrás do jogador",
+        "Sistema de ventilação ativa com força incomum",
+        "Mensagem de voz interrompida: 'Não confie na IA...'"
+    ],
+    "dialogos": [
+        {
+            "fala": "IA-ÔMEGA: Este corredor foi isolado por motivos de segurança. Você insiste em prosseguir?",
+            "opcoes": [
+                "Sim",
+                "Solicitar mais informações",
+                "Desativar IA temporariamente"
+            ]
+        }
+    ]
+}

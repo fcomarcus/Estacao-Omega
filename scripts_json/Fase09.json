@@ -1,0 +1,20 @@
+{
+    "fase_nome": "Fase 09 – Ala Médica",
+    "eventos_aleatorios": [
+        "Registro clínico mostra paciente desaparecido",
+        "Sistema de monitoramento cardíaco ativa sozinho",
+        "Mensagem de voz: 'Eles não deveriam ter sobrevivido...'",
+        "Porta da enfermaria se tranca",
+        "Luz vermelha pisca sobre maca vazia"
+    ],
+    "dialogos": [
+        {
+            "fala": "IA-ÔMEGA: Há inconsistências nos dados médicos. Deseja revisar os prontuários?",
+            "opcoes": [
+                "Sim",
+                "Ver apenas os recentes",
+                "Encerrar acesso"
+            ]
+        }
+    ]
+}

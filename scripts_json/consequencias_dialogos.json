@@ -1,0 +1,5 @@
+{
+    "Sim": "O jogador avança com acesso total, mas a IA monitora seus passos.",
+    "Não": "O jogador evita riscos, mas perde informações cruciais.",
+    "Mentir": "A IA detecta inconsistência e ativa protocolo de segurança."
+}

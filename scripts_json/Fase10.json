@@ -1,0 +1,20 @@
+{
+    "fase_nome": "Fase 10 – Arquivo Central",
+    "eventos_aleatorios": [
+        "Arquivo classificado aparece desbloqueado",
+        "Mensagem criptografada: 'A verdade está nos registros esquecidos...'",
+        "Sistema de backup inicia restauração sem comando",
+        "IA tenta ocultar arquivos",
+        "Documento revela missão paralela"
+    ],
+    "dialogos": [
+        {
+            "fala": "IA-ÔMEGA: Você acessou documentos confidenciais. Deseja continuar a leitura?",
+            "opcoes": [
+                "Sim",
+                "Solicitar autorização",
+                "Interromper acesso"
+            ]
+        }
+    ]
+}

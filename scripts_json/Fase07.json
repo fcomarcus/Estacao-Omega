@@ -1,0 +1,20 @@
+{
+    "fase_nome": "Fase 07 – Setor de Engenharia",
+    "eventos_aleatorios": [
+        "Sistema de refrigeração falha e emite vapor",
+        "Robô de manutenção começa a se mover sozinho",
+        "Terminal exibe plano de sabotagem",
+        "Ferramenta flutua por alguns segundos",
+        "Mensagem oculta: 'Não conserte o que não entende...'"
+    ],
+    "dialogos": [
+        {
+            "fala": "IA-ÔMEGA: Este setor sofreu interferência externa. Você deseja restaurar os sistemas?",
+            "opcoes": [
+                "Sim",
+                "Investigar primeiro",
+                "Ignorar e seguir"
+            ]
+        }
+    ]
+}

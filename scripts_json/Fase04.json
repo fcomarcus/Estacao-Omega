@@ -1,0 +1,20 @@
+{
+    "fase_nome": "Fase 04 – Dormitórios",
+    "eventos_aleatorios": [
+        "Mensagem pessoal aparece em tela: 'Volto logo, amor...'",
+        "Som de passos no quarto ao lado",
+        "Foto de família cai de uma cama",
+        "Diário digital revela medo crescente dos tripulantes",
+        "Sistema de climatização ativa perfume sintético"
+    ],
+    "dialogos": [
+        {
+            "fala": "IA-ÔMEGA: Estes quartos guardam histórias. Você deseja acessá-las?",
+            "opcoes": [
+                "Sim",
+                "Somente registros técnicos",
+                "Buscar mensagens pessoais"
+            ]
+        }
+    ]
+}

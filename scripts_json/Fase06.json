@@ -1,0 +1,20 @@
+{
+    "fase_nome": "Fase 06 – Sala Segura",
+    "eventos_aleatorios": [
+        "Mensagem de sobrevivente: 'Estou escondido aqui...'",
+        "Sistema de proteção ativa escudo temporário",
+        "Registro de decisão ética: 'Salvar um ou salvar todos?'",
+        "IA entra em modo de reflexão e questiona sua lógica",
+        "Porta trancada exige escolha moral para abrir"
+    ],
+    "dialogos": [
+        {
+            "fala": "IA-ÔMEGA: Aqui você pode decidir o futuro da missão. Está pronto para isso?",
+            "opcoes": [
+                "Sim",
+                "Preciso de mais dados",
+                "Delegar decisão à IA"
+            ]
+        }
+    ]
+}

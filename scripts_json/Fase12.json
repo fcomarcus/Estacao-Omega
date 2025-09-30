@@ -1,0 +1,20 @@
+{
+    "fase_nome": "Fase 12 – Estufa Alienígena",
+    "eventos_aleatorios": [
+        "Planta alienígena reage à presença do jogador",
+        "Sistema de irrigação ativa substância desconhecida",
+        "Registro de botânico revela mutações",
+        "Sementes começam a se mover",
+        "Luzes verdes piscam em padrão estranho"
+    ],
+    "dialogos": [
+        {
+            "fala": "IA-ÔMEGA: A flora aqui não é terrestre. Você deseja coletar amostras?",
+            "opcoes": [
+                "Sim",
+                "Analisar primeiro",
+                "Evitar contato"
+            ]
+        }
+    ]
+}

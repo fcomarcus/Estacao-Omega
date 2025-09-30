@@ -1,0 +1,20 @@
+{
+    "fase_nome": "Fase 13 – Núcleo de Propulsão",
+    "eventos_aleatorios": [
+        "Alerta de superaquecimento do núcleo",
+        "Sistema de resfriamento falha",
+        "Propulsor ativa por conta própria",
+        "Mensagem técnica sugere sabotagem",
+        "IA tenta redirecionar energia sem autorização"
+    ],
+    "dialogos": [
+        {
+            "fala": "IA-ÔMEGA: O núcleo está instável. Você deseja assumir o controle manual?",
+            "opcoes": [
+                "Sim",
+                "Confiar na IA",
+                "Desligar sistema"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "fase_nome": "Fase 08 – Jardim Hidropônico",
+    "eventos_aleatorios": [
+        "Planta se move ao detectar presença",
+        "Sistema de irrigação ativa sem comando",
+        "Mensagem botânica: 'Eles estão crescendo rápido demais...'",
+        "Sensor detecta alteração genética",
+        "Som de raízes se espalhando sob o chão"
+    ],
+    "dialogos": [
+        {
+            "fala": "IA-ÔMEGA: A flora aqui não corresponde aos registros. Deseja iniciar análise?",
+            "opcoes": [
+                "Sim",
+                "Coletar amostra",
+                "Sair imediatamente"
+            ]
+        }
+    ]
+}

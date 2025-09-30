@@ -1,0 +1,20 @@
+{
+    "fase_nome": "Fase 03 – Laboratório",
+    "eventos_aleatorios": [
+        "Experimento biológico ainda ativo em câmara",
+        "Terminal exibe equações incompreensíveis",
+        "Registro de cientista com voz trêmula: 'Eles estão vivos...'",
+        "Objeto estranho pulsa em uma bancada",
+        "Sistema de descontaminação falha e ativa alarme"
+    ],
+    "dialogos": [
+        {
+            "fala": "IA-ÔMEGA: Os dados aqui são confidenciais. Você possui autorização?",
+            "opcoes": [
+                "Sim, sou o novo comandante",
+                "Não, mas preciso saber",
+                "Tentar hackear o sistema"
+            ]
+        }
+    ]
+}

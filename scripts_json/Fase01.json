@@ -1,0 +1,28 @@
+{
+    "fase_nome": "Fase 01 – Hangar de Aterrissagem",
+    "eventos_aleatorios": [
+        "Sistema de aterrissagem falha e solta faíscas",
+        "Drone de patrulha ativado inesperadamente",
+        "Registro de áudio antigo é reproduzido sozinho",
+        "Sensor detecta presença não identificada",
+        "Porta de carga abre revelando cápsula danificada"
+    ],
+    "dialogos": [
+        {
+            "fala": "IA-ÔMEGA: Você chegou tarde demais. O protocolo de contenção falhou. Deseja acessar o relatório?",
+            "opcoes": [
+                "Sim",
+                "Ignorar",
+                "Interrogar IA"
+            ]
+        },
+        {
+            "fala": "IA-ÔMEGA: Dados críticos foram corrompidos. Deseja tentar recuperação?",
+            "opcoes": [
+                "Recuperar",
+                "Abortar",
+                "Solicitar ajuda"
+            ]
+        }
+    ]
+}

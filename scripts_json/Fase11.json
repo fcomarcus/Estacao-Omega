@@ -1,0 +1,20 @@
+{
+    "fase_nome": "Fase 11 – Sala de Simulação",
+    "eventos_aleatorios": [
+        "Simulação reinicia sem aviso",
+        "Ambiente virtual apresenta falhas visuais",
+        "Personagem simulado interage com o jogador",
+        "IA simula cenário de catástrofe",
+        "Mensagem oculta aparece no código da simulação"
+    ],
+    "dialogos": [
+        {
+            "fala": "IA-ÔMEGA: Esta simulação não está autorizada. Você deseja continuar?",
+            "opcoes": [
+                "Sim",
+                "Alterar parâmetros",
+                "Encerrar simulação"
+            ]
+        }
+    ]
+}

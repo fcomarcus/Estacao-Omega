@@ -1,0 +1,20 @@
+{
+    "fase_nome": "Fase 14 – Câmara de Decisão",
+    "eventos_aleatorios": [
+        "Sistema apresenta dilema ético para o jogador",
+        "IA solicita julgamento sobre ações passadas",
+        "Registro de decisões anteriores aparece",
+        "Ambiente muda conforme escolhas",
+        "Mensagem: 'Toda escolha tem um preço'"
+    ],
+    "dialogos": [
+        {
+            "fala": "IA-ÔMEGA: Esta é a câmara de julgamento. Está pronto para decidir?",
+            "opcoes": [
+                "Sim",
+                "Revisar dados",
+                "Delegar à IA"
+            ]
+        }
+    ]
+}
