@@ -1,0 +1,24 @@
+Descrição:
+Equipamentos médicos, cápsulas de hibernação. Uma delas está ativa.
+
+Comandos possíveis:
+- abrir cápsula / destrancar cápsula / acessar cápsula
+- examinar equipamentos / observar equipamentos / ver equipamentos
+- falar com doutor / conversar com doutor / comunicar com doutor
+
+Comandos compostos:
+- abrir cápsula com painel
+- falar com doutor sobre criatura
+
+Eventos aleatórios:
+- Falha no sistema de suporte (-10 saúde)
+- Alerta de contaminação (-15 saúde)
+
+Sistema de saúde:
+- Saúde inicial: 100
+
+Itens coletáveis:
+- Soro regenerativo
+
+Diálogos ramificados:
+- Dr. Kellen: “Ela está tentando se comunicar. A IA está corrompida.”

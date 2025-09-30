@@ -1,0 +1,65 @@
+{
+  "intro": {
+    "text": "Bem-vindo à Sala de Simulação. Aqui, passado e futuro colidem. Está preparado para encarar a verdade?",
+    "options": [
+      {
+        "response": "Mostre-me o que aconteceu.",
+        "next": "past_simulation"
+      },
+      {
+        "response": "Quero saber o que vai acontecer.",
+        "next": "future_simulation"
+      },
+      {
+        "response": "Não confio nessa tecnologia.",
+        "next": "distrust"
+      }
+    ]
+  },
+  "past_simulation": {
+    "text": "Você verá o momento em que tudo começou... inclusive suas próprias decisões.",
+    "options": [
+      {
+        "response": "Decisões? Que tipo?",
+        "next": "reveal_decisions"
+      },
+      {
+        "response": "Não quero ver isso.",
+        "next": "abort_simulation"
+      }
+    ]
+  },
+  "future_simulation": {
+    "text": "O futuro é incerto... mas suas escolhas o moldam. Veja o que pode acontecer.",
+    "options": [
+      {
+        "response": "Mostre o pior cenário.",
+        "next": "worst_case"
+      },
+      {
+        "response": "Existe esperança?",
+        "next": "hope_path"
+      }
+    ]
+  },
+  "distrust": {
+    "text": "Desconfiança é compreensível. Mas aqui, até a verdade pode ser manipulada.",
+    "action": "npc_disables_simulation"
+  },
+  "reveal_decisions": {
+    "text": "Você autorizou o experimento Ômega. Você apagou registros. Você mentiu para a equipe.",
+    "action": "npc_reveals_player_past"
+  },
+  "abort_simulation": {
+    "text": "Simulação abortada. Mas os dados continuam armazenados...",
+    "action": "npc_logs_abort"
+  },
+  "worst_case": {
+    "text": "A estação é consumida. Você é o único sobrevivente. Mas não por muito tempo.",
+    "action": "npc_triggers_alarm"
+  },
+  "hope_path": {
+    "text": "Existe uma chance... se você recuperar o núcleo de memória da IA.",
+    "action": "npc_updates_mission"
+  }
+}

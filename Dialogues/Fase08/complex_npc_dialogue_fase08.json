@@ -1,0 +1,48 @@
+{
+  "intro": {
+    "text": "Você sente isso? As plantas... estão tentando se comunicar.",
+    "options": [
+      {
+        "response": "Comunicar? Como assim?",
+        "next": "communication"
+      },
+      {
+        "response": "Isso é apenas uma reação química.",
+        "next": "skeptic"
+      },
+      {
+        "response": "Estou aqui para coletar amostras.",
+        "next": "samples"
+      }
+    ]
+  },
+  "communication": {
+    "text": "Elas emitem padrões de luz e vibração. Não é aleatório. É linguagem.",
+    "options": [
+      {
+        "response": "Você tem provas?",
+        "next": "evidence"
+      },
+      {
+        "response": "Isso é perigoso.",
+        "next": "danger"
+      }
+    ]
+  },
+  "skeptic": {
+    "text": "Foi o que eu pensei no início. Mas elas respondem à presença humana.",
+    "action": "log_skepticism"
+  },
+  "samples": {
+    "text": "Cuidado. Algumas amostras estão... se movendo.",
+    "action": "update_mission_samples"
+  },
+  "evidence": {
+    "text": "Veja este padrão. Ele se repete sempre que mencionamos 'entidade'.",
+    "action": "trigger_alien_signal"
+  },
+  "danger": {
+    "text": "Já perdemos dois técnicos. As raízes os envolveram silenciosamente.",
+    "action": "alert_security"
+  }
+}

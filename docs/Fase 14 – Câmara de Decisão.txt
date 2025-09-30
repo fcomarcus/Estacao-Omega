@@ -1,0 +1,24 @@
+Descrição:
+Local onde decisões finais são tomadas. Há três opções: evacuar, negociar, destruir.
+
+Comandos possíveis:
+- ativar evacuação / iniciar evacuação / ligar evacuação
+- iniciar negociação / ativar negociação / conversar com criatura
+- ativar autodestruição / iniciar autodestruição / ligar autodestruição
+
+Comandos compostos:
+- ativar evacuação com protocolo
+- iniciar negociação com criatura
+
+Eventos aleatórios:
+- Alerta de tempo final (-10 saúde)
+- Falha de sistema (-15 saúde)
+
+Sistema de saúde:
+- Saúde inicial: 100
+
+Itens coletáveis:
+- Protocolo de evacuação
+
+Diálogos ramificados:
+- Criatura: “Escolha. Ficar, partir ou apagar.”

@@ -1,0 +1,99 @@
+
+Guia de Uso dos Arquivos do Jogo "Estação Ômega"
+===============================================
+
+Este guia explica como utilizar os arquivos de texto das 15 fases do jogo de aventura "Estação Ômega", incluindo os sistemas de comandos, sinônimos, saúde, eventos aleatórios, inventário e diálogos ramificados.
+
+1. Estrutura dos Arquivos
+--------------------------
+Cada arquivo de fase contém:
+- Descrição do ambiente
+- Lista de comandos reconhecidos
+- Sinônimos para comandos
+- Comandos compostos
+- Eventos aleatórios possíveis
+- Sistema de saúde (impactos e recuperação)
+- Itens disponíveis para coleta
+- Diálogos com ramificações
+
+2. Comandos e Sinônimos
+------------------------
+Os comandos seguem o estilo clássico de jogos adventure. Exemplos:
+- Comando base: "examinar armário"
+- Sinônimos reconhecidos: "observar armário", "ver armário", "analisar armário"
+
+Verbos com sinônimos:
+- examinar → observar, ver, analisar
+- pegar → coletar, capturar, recolher
+- usar → aplicar, utilizar
+- falar → conversar, dialogar
+- ir → seguir, caminhar, mover
+- ler → consultar, acessar
+- abrir → destrancar, acessar
+- ativar → iniciar, ligar
+- ouvir → escutar
+
+3. Comandos Compostos
+----------------------
+O parser reconhece comandos com estrutura mais natural:
+- "usar cartão na porta"
+- "examinar robô com defeito"
+- "falar com criatura sobre núcleo"
+
+4. Sistema de Saúde
+--------------------
+O jogador inicia com 100 pontos de saúde. Eventos e ações podem reduzir ou restaurar esse valor.
+Exemplo:
+- Evento: "Vazamento de gás tóxico" → -15 saúde
+- Item: "Planta curativa" → +10 saúde
+
+5. Eventos Aleatórios
+----------------------
+Cada fase pode conter eventos imprevisíveis que afetam o jogador:
+- Falha elétrica
+- Aparição da criatura
+- Vazamento de gás
+- Queda de temperatura
+
+Esses eventos são descritos no arquivo da fase e podem ocorrer durante a exploração.
+
+6. Inventário
+--------------
+Itens coletados são registrados no inventário do jogador. Eles podem ser usados em fases futuras.
+Exemplo:
+- "coletar sedativo" → adiciona "sedativo" ao inventário
+- "usar sedativo na criatura" → ação possível na fase final
+
+7. Diálogos Ramificados
+------------------------
+Personagens e IA oferecem múltiplas opções de diálogo. A resposta depende do contexto e do inventário.
+Exemplo:
+- "falar com NOVA"
+  - "perguntar sobre criatura"
+  - "pedir ajuda"
+  - "desligar IA"
+
+Cada opção pode levar a diferentes respostas e consequências.
+
+8. Navegação entre Fases
+-------------------------
+O jogador progride de fase em fase ao completar objetivos e resolver enigmas. Os arquivos indicam os caminhos possíveis e os comandos que desbloqueiam novas áreas.
+
+9. Sugestão de Uso
+-------------------
+- Leia o arquivo da fase atual
+- Verifique os comandos disponíveis e sinônimos
+- Execute ações e registre itens no inventário
+- Acompanhe a saúde e eventos aleatórios
+- Explore diálogos e tome decisões que afetam o final
+
+10. Finais Possíveis
+---------------------
+Na fase 15 (Epílogo), o jogador pode alcançar diferentes finais:
+- Evacuação bem-sucedida
+- Negociação com a criatura
+- Autodestruição da estação
+
+Cada final depende das escolhas feitas ao longo das fases.
+
+Bom jogo!

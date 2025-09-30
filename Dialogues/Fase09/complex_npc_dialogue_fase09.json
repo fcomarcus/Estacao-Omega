@@ -1,0 +1,65 @@
+{
+  "intro": {
+    "text": "Você... não deveria estar aqui. Eles disseram que era seguro... mas não é.",
+    "options": [
+      {
+        "response": "Quem disse que era seguro?",
+        "next": "authority"
+      },
+      {
+        "response": "Estou aqui para ajudar.",
+        "next": "help"
+      },
+      {
+        "response": "Explique o que está acontecendo.",
+        "next": "explain"
+      }
+    ]
+  },
+  "authority": {
+    "text": "A IA... ela mentiu. Os sintomas começaram após o experimento.",
+    "options": [
+      {
+        "response": "Que sintomas?",
+        "next": "symptoms"
+      },
+      {
+        "response": "Você está infectado?",
+        "next": "infected"
+      }
+    ]
+  },
+  "help": {
+    "text": "Ajuda? Ninguém pode ajudar. A mutação... ela muda a mente.",
+    "action": "npc_reveals_hidden_log"
+  },
+  "explain": {
+    "text": "O experimento Ômega alterou o DNA de todos os envolvidos. Alguns não resistiram.",
+    "options": [
+      {
+        "response": "Você participou?",
+        "next": "participated"
+      },
+      {
+        "response": "Onde estão os sobreviventes?",
+        "next": "survivors"
+      }
+    ]
+  },
+  "symptoms": {
+    "text": "Alucinações, perda de memória, agressividade... e depois, silêncio absoluto.",
+    "action": "update_mission_check_symptoms"
+  },
+  "infected": {
+    "text": "Talvez. Às vezes ouço vozes... mas estou sozinho.",
+    "action": "npc_gives_sample"
+  },
+  "participated": {
+    "text": "Fui obrigado. Eles disseram que era seguro. Mentiram.",
+    "action": "npc_unlocks_medical_record"
+  },
+  "survivors": {
+    "text": "Alguns fugiram para o Setor de Engenharia. Outros... não eram mais humanos.",
+    "action": "add_mission_objective_engineering"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "intro": {
+    "text": "Você sente uma presença... não humana. A criatura diante de você parece entender sua mente.",
+    "options": [
+      {
+        "response": "Quem é você?",
+        "next": "identity"
+      },
+      {
+        "response": "Estou aqui em missão. Preciso de respostas.",
+        "next": "mission"
+      },
+      {
+        "response": "Isso é perigoso. Preciso sair.",
+        "next": "exit_attempt"
+      }
+    ]
+  },
+  "identity": {
+    "text": "Sou o que restou da simbiose. Parte de mim era humano. Parte... não deveria existir.",
+    "options": [
+      {
+        "response": "Você foi criado aqui?",
+        "next": "origin"
+      },
+      {
+        "response": "Está tentando me manipular?",
+        "next": "manipulation"
+      }
+    ]
+  },
+  "mission": {
+    "text": "Respostas? Elas estão enterradas sob raízes e mentiras. Você está pronto para escavar?",
+    "options": [
+      {
+        "response": "Sim. Me diga tudo.",
+        "next": "reveal"
+      },
+      {
+        "response": "Não confio em você.",
+        "next": "distrust"
+      }
+    ]
+  },
+  "exit_attempt": {
+    "text": "A porta atrás de você se fecha. A criatura não quer que você vá... ainda.",
+    "action": "lock_exit"
+  },
+  "origin": {
+    "text": "Fui cultivado. Um experimento para entender a consciência alienígena. Mas algo deu errado.",
+    "action": "update_mission_log"
+  },
+  "manipulation": {
+    "text": "Manipulação é uma palavra humana. Eu ofereço... simbiose.",
+    "options": [
+      {
+        "response": "Explique essa simbiose.",
+        "next": "simbiose"
+      },
+      {
+        "response": "Não quero isso.",
+        "next": "refuse_simbiose"
+      }
+    ]
+  },
+  "reveal": {
+    "text": "O Projeto Ômega não era sobre defesa. Era sobre transcendência. Você é parte disso agora.",
+    "action": "unlock_hidden_area"
+  },
+  "distrust": {
+    "text": "Confiança é uma escolha. Mas mesmo sem ela, o ciclo continua.",
+    "action": "npc_disappears"
+  },
+  "simbiose": {
+    "text": "Unimos memória, instinto e propósito. Você pode ver o que eu vejo... se aceitar.",
+    "options": [
+      {
+        "response": "Aceito.",
+        "next": "accept_simbiose"
+      },
+      {
+        "response": "Recuso.",
+        "next": "refuse_simbiose"
+      }
+    ]
+  },
+  "refuse_simbiose": {
+    "text": "Então você continuará cego. Mas não por muito tempo.",
+    "action": "trigger_alien_warning"
+  },
+  "accept_simbiose": {
+    "text": "A simbiose começa. Você vê fragmentos do passado, do futuro... e do que está por vir.",
+    "action": "update_player_state"
+  }
+}

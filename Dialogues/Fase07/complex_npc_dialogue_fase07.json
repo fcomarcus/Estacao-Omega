@@ -1,0 +1,65 @@
+{
+  "intro": {
+    "text": "Você não deveria estar aqui. Este setor está sob investigação técnica.",
+    "options": [
+      {
+        "response": "Recebi ordens para verificar o reator.",
+        "next": "reactor_check"
+      },
+      {
+        "response": "Estou apenas explorando.",
+        "next": "unauthorized_access"
+      },
+      {
+        "response": "Há sinais de sabotagem no sistema.",
+        "next": "sabotage_report"
+      }
+    ]
+  },
+  "reactor_check": {
+    "text": "Ordens? Mostre sua autorização.",
+    "options": [
+      {
+        "response": "Aqui está o código de acesso.",
+        "next": "access_granted"
+      },
+      {
+        "response": "Não tenho, mas é urgente.",
+        "next": "access_denied"
+      }
+    ]
+  },
+  "unauthorized_access": {
+    "text": "Exploração não autorizada será reportada. Saia imediatamente.",
+    "action": "npc_alerts_security"
+  },
+  "sabotage_report": {
+    "text": "Sabotagem? Isso explicaria os picos de energia...",
+    "options": [
+      {
+        "response": "Posso ajudar a investigar.",
+        "next": "investigation_assist"
+      },
+      {
+        "response": "Você está envolvido?",
+        "next": "npc_defensive"
+      }
+    ]
+  },
+  "access_granted": {
+    "text": "Código validado. Painel de diagnóstico liberado.",
+    "action": "unlock_diagnostic_panel"
+  },
+  "access_denied": {
+    "text": "Sem autorização, sem acesso. Estou ativando o protocolo de segurança.",
+    "action": "npc_triggers_lockdown"
+  },
+  "investigation_assist": {
+    "text": "Muito bem. Compartilharei os registros técnicos com você.",
+    "action": "share_technical_logs"
+  },
+  "npc_defensive": {
+    "text": "Está me acusando? Sou o único mantendo isso funcionando!",
+    "action": "npc_refuses_help"
+  }
+}

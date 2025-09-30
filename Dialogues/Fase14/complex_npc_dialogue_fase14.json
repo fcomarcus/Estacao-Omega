@@ -1,0 +1,58 @@
+{
+    "npc": "Comandante da Câmara",
+    "contexto": "O jogador entra na Câmara de Decisão, onde decisões críticas sobre o destino da estação são tomadas.",
+    "dialogos": [
+        {
+            "id": "inicio",
+            "fala": "Você chegou. A estação está à beira do colapso. Precisamos decidir agora.",
+            "opcoes": [
+                {
+                    "resposta": "Quais são as opções?",
+                    "proximo": "opcoes_decisao"
+                },
+                {
+                    "resposta": "Já tomei minha decisão.",
+                    "proximo": "decisao_direta"
+                }
+            ]
+        },
+        {
+            "id": "opcoes_decisao",
+            "fala": "Podemos evacuar e abandonar tudo, ou tentar reiniciar o sistema central e salvar a estação.",
+            "opcoes": [
+                {
+                    "resposta": "Evacuar imediatamente.",
+                    "proximo": "evacuacao"
+                },
+                {
+                    "resposta": "Reiniciar o sistema.",
+                    "proximo": "reiniciar"
+                }
+            ]
+        },
+        {
+            "id": "decisao_direta",
+            "fala": "Então diga. Qual é sua escolha?",
+            "opcoes": [
+                {
+                    "resposta": "Evacuar.",
+                    "proximo": "evacuacao"
+                },
+                {
+                    "resposta": "Reiniciar.",
+                    "proximo": "reiniciar"
+                }
+            ]
+        },
+        {
+            "id": "evacuacao",
+            "fala": "Entendido. Iniciando protocolo de evacuação. Que a sorte esteja conosco.",
+            "acao": "ativar_evacuacao"
+        },
+        {
+            "id": "reiniciar",
+            "fala": "Reiniciando o sistema central. Prepare-se para instabilidades.",
+            "acao": "reiniciar_sistema"
+        }
+    ]
+}

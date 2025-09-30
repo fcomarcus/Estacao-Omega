@@ -1,0 +1,24 @@
+Descrição:
+Máquinas danificadas, geradores instáveis. Há um painel de energia e um robô de manutenção funcional.
+
+Comandos possíveis:
+- examinar painel / observar painel / ver painel
+- falar com robô / conversar com robô / comunicar com robô
+- pegar fusível / coletar fusível / recolher fusível
+
+Comandos compostos:
+- usar fusível no painel
+- falar com robô sobre energia
+
+Eventos aleatórios:
+- Curto-circuito (-15 saúde)
+- Vibração estrutural (-10 saúde)
+
+Sistema de saúde:
+- Saúde inicial: 100
+
+Itens coletáveis:
+- Fusível de alta voltagem
+
+Diálogos ramificados:
+- Robô: “Reinicialização possível. Fusível necessário.”

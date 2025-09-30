@@ -1,0 +1,25 @@
+{
+    "npc": "Inteligência Central Ômega",
+    "intro": "Você chegou ao final da jornada. A Estação-Ômega aguarda sua decisão final.",
+    "choices": [
+        {
+            "id": "finalizar_missao",
+            "text": "Finalizar missão e desativar sistemas.",
+            "consequence": "A estação entra em modo de hibernação. Todos os registros são selados.",
+            "next": []
+        },
+        {
+            "id": "transmitir_dados",
+            "text": "Transmitir dados para a Terra.",
+            "consequence": "Os dados são enviados com sucesso. A humanidade terá acesso ao legado da estação.",
+            "next": []
+        },
+        {
+            "id": "reiniciar_estacao",
+            "text": "Reiniciar estação para nova missão.",
+            "consequence": "A estação é reiniciada. Uma nova jornada começa.",
+            "next": []
+        }
+    ],
+    "epilogue": "Independentemente da escolha, a Estação-Ômega permanece como símbolo de resistência e descoberta."
+}

@@ -1,0 +1,65 @@
+{
+  "intro": {
+    "text": "Você não deveria estar aqui. Os registros que guardo não são para olhos comuns.",
+    "options": [
+      {
+        "response": "Recebi autorização do comando.",
+        "next": "authorization"
+      },
+      {
+        "response": "Estou investigando os eventos da Ala Médica.",
+        "next": "medical_investigation"
+      },
+      {
+        "response": "Só quero entender o que aconteceu.",
+        "next": "curiosity"
+      }
+    ]
+  },
+  "authorization": {
+    "text": "Autorização? Mostre o código de acesso.",
+    "options": [
+      {
+        "response": "Código Ômega-47.",
+        "next": "code_valid"
+      },
+      {
+        "response": "Não tenho o código.",
+        "next": "code_invalid"
+      }
+    ]
+  },
+  "medical_investigation": {
+    "text": "Aqueles registros foram selados... mas talvez você precise vê-los.",
+    "action": "unlock_medical_logs"
+  },
+  "curiosity": {
+    "text": "Curiosidade é perigosa. Muitos desapareceram por querer saber demais.",
+    "options": [
+      {
+        "response": "Aceito os riscos.",
+        "next": "risk_accepted"
+      },
+      {
+        "response": "Talvez seja melhor eu ir embora.",
+        "next": "exit"
+      }
+    ]
+  },
+  "code_valid": {
+    "text": "Código reconhecido. Liberando acesso aos registros do Projeto Ômega.",
+    "action": "grant_access"
+  },
+  "code_invalid": {
+    "text": "Sem código, sem acesso. Saia agora.",
+    "action": "deny_access"
+  },
+  "risk_accepted": {
+    "text": "Então escute com atenção... o que você descobrirá pode mudar tudo.",
+    "action": "reveal_secret"
+  },
+  "exit": {
+    "text": "Sabia que não estava pronto. Os arquivos permanecerão selados.",
+    "action": "npc_ignores_player"
+  }
+}

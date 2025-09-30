@@ -1,0 +1,48 @@
+{
+  "intro": {
+    "text": "Você... não deveria estar aqui. O laboratório está em quarentena.",
+    "options": [
+      {
+        "response": "Recebi autorização do comando.",
+        "next": "authorization"
+      },
+      {
+        "response": "Estou investigando o Projeto Ômega.",
+        "next": "investigation"
+      },
+      {
+        "response": "Só estou tentando sobreviver.",
+        "next": "survival"
+      }
+    ]
+  },
+  "authorization": {
+    "text": "Autorização? Mostre o código. Sem ele, não posso confiar em você.",
+    "options": [
+      {
+        "response": "Código 7-Zeta-14.",
+        "next": "code_valid"
+      },
+      {
+        "response": "Não tenho o código.",
+        "next": "code_invalid"
+      }
+    ]
+  },
+  "investigation": {
+    "text": "Então você sabe... o Projeto Ômega não era apenas pesquisa. Era contenção.",
+    "action": "reveal_secret"
+  },
+  "survival": {
+    "text": "Sobrevivência... todos aqui morreram por causa de uma escolha errada.",
+    "action": "npc_reflects"
+  },
+  "code_valid": {
+    "text": "Esse código... não deveria estar com você. Siga-me, há algo que precisa ver.",
+    "action": "unlock_safe_room"
+  },
+  "code_invalid": {
+    "text": "Então você mente. A estação não tolera mentirosos.",
+    "action": "trigger_alarm"
+  }
+}

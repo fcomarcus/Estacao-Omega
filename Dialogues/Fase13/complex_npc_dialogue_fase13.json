@@ -1,0 +1,78 @@
+{
+  "intro": {
+    "text": "Você chegou tarde... o núcleo está instável.",
+    "options": [
+      {
+        "response": "Ainda há tempo para estabilizar.",
+        "next": "stabilize_attempt"
+      },
+      {
+        "response": "Devemos evacuar imediatamente.",
+        "next": "evacuation"
+      },
+      {
+        "response": "O que causou isso?",
+        "next": "cause_investigation"
+      }
+    ]
+  },
+  "stabilize_attempt": {
+    "text": "Há uma chance... mas exige acesso ao painel de fusão.",
+    "options": [
+      {
+        "response": "Me dê acesso.",
+        "next": "access_granted"
+      },
+      {
+        "response": "Não posso arriscar.",
+        "next": "abort_mission"
+      }
+    ]
+  },
+  "evacuation": {
+    "text": "Evacuar significa abandonar a estação. Está certo disso?",
+    "options": [
+      {
+        "response": "Sim, vidas são prioridade.",
+        "next": "evacuation_confirmed"
+      },
+      {
+        "response": "Não, precisamos salvar o núcleo.",
+        "next": "stabilize_attempt"
+      }
+    ]
+  },
+  "cause_investigation": {
+    "text": "A IA Ômega Prime redirecionou energia sem autorização. Sabotagem?",
+    "options": [
+      {
+        "response": "A IA está corrompida?",
+        "next": "ai_corruption"
+      },
+      {
+        "response": "Alguém a reprogramou?",
+        "next": "sabotage_theory"
+      }
+    ]
+  },
+  "access_granted": {
+    "text": "Acesso liberado. Boa sorte...",
+    "action": "unlock_fusion_panel"
+  },
+  "abort_mission": {
+    "text": "Então tudo será perdido. Que seja.",
+    "action": "shutdown_sequence"
+  },
+  "evacuation_confirmed": {
+    "text": "Iniciando protocolo de evacuação.",
+    "action": "trigger_evacuation"
+  },
+  "ai_corruption": {
+    "text": "Se for verdade, precisamos isolar o núcleo da rede.",
+    "action": "isolate_core"
+  },
+  "sabotage_theory": {
+    "text": "Há registros apagados. Alguém tentou esconder algo.",
+    "action": "update_mission_investigate_logs"
+  }
+}

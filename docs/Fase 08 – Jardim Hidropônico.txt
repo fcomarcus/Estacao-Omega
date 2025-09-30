@@ -1,0 +1,24 @@
+Descrição:
+Vegetação artificial, sistema de irrigação quebrado. Há sinais de que alguém esteve ali recentemente.
+
+Comandos possíveis:
+- examinar solo / observar solo / ver solo
+- pegar planta / coletar planta / recolher planta
+- usar lanterna / aplicar lanterna / ligar lanterna
+
+Comandos compostos:
+- examinar solo com lanterna
+- pegar planta medicinal
+
+Eventos aleatórios:
+- Gotejamento ácido (-10 saúde)
+- Insetos biológicos atacam (-5 saúde)
+
+Sistema de saúde:
+- Saúde inicial: 100
+
+Itens coletáveis:
+- Planta medicinal
+
+Diálogos ramificados:
+- Nenhum personagem presente
