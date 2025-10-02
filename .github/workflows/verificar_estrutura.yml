@@ -1,0 +1,29 @@
+
+name: Verificar Estrutura do Projeto Estacao-Omega
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  verificar_estrutura:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout do repositório
+      uses: actions/checkout@v3
+
+    - name: Configurar Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Instalar dependências (se necessário)
+      run: |
+        pip install --upgrade pip
+
+    - name: Executar verificador_estacao_omega.py
+      run: |
+        python verificador_estacao_omega.p
