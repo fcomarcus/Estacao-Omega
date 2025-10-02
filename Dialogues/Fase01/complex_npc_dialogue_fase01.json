@@ -1,0 +1,65 @@
+{
+    "start": {
+        "text": "Olá, viajante. Bem-vindo à Estação-Ômega. O que deseja?",
+        "choices": {
+            "1": {
+                "text": "Estou procurando informações.",
+                "next": "info"
+            },
+            "2": {
+                "text": "Só estou explorando.",
+                "next": "explore"
+            },
+            "3": {
+                "text": "Quem é você?",
+                "next": "identity"
+            }
+        }
+    },
+    "info": {
+        "text": "Informações são valiosas por aqui. Você tem algo para trocar?",
+        "choices": {
+            "1": {
+                "text": "Tenho dados de navegação.",
+                "next": "trade"
+            },
+            "2": {
+                "text": "Não tenho nada agora.",
+                "next": "no_trade"
+            }
+        }
+    },
+    "explore": {
+        "text": "Explore à vontade, mas cuidado com os setores instáveis.",
+        "choices": {}
+    },
+    "identity": {
+        "text": "Sou o guardião da fase 01. Monitoro os fluxos e protejo os segredos.",
+        "choices": {
+            "1": {
+                "text": "Que segredos?",
+                "next": "secrets"
+            },
+            "2": {
+                "text": "Interessante. Até mais.",
+                "next": "end"
+            }
+        }
+    },
+    "secrets": {
+        "text": "Segredos que podem mudar o rumo da estação. Mas não são para todos.",
+        "choices": {}
+    },
+    "trade": {
+        "text": "Dados aceitos. Aqui está o que você precisa saber...",
+        "choices": {}
+    },
+    "no_trade": {
+        "text": "Volte quando tiver algo de valor.",
+        "choices": {}
+    },
+    "end": {
+        "text": "Boa jornada, viajante.",
+        "choices": {}
+    }
+}
